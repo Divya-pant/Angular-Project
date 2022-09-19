@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Icons');
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+mat-icon{
+    color: gray;
+    font-family: 'Material Icons';
+    vertical-align: middle;
+}
+img{
+    height: 150px;
+    width: 120px;
+    align-content: center;
+}
+.top{
+    margin-top: 15px;
+    padding: 8px;
+    margin-left: 160px;
+    font-size: 40px;
+}
+.user{
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 50px;
+    img{
+        margin-top: 16px;
+        width: 120px;
+        height: 120px;
+    }
+    .name{
+        color:white;
+    }
+    .mail{
+        color: gray;
+        margin-top: -16px;
+    }
+
+}
+.menu-head{
+    color: darkcyan;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: 60px;
+    margin-bottom: 20px;
+
+}
+.menu-item{
+
+    .menu-button{
+        display: block;
+        width: 95%;
+        position: relative;
+        display: flex;
+        padding-left: 30%;
+        margin-bottom: 10px;
+        color: white;
+    }
+    .menu-button span{
+        margin-left: 15px;
+    }
+    .menu-button:hover{
+        background-color: darkgray;
+    }
+    .menu-button:focus{
+        background-color: darkgray;
+    }
+}
